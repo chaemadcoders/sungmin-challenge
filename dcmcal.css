@@ -1,0 +1,50 @@
+body {
+     background-color: black;
+}
+.cal {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+}
+ 
+.row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+ 
+button {
+     width: 60px;
+     height: 60px;
+     font-size: 24px;
+     background-color: #333;
+     color: white;
+     border: none;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+#input {
+     width: 270px;
+     height: 60px;
+     font-size: 24px;
+     text-align: center;
+     background-color: #555;
+     color: white;
+     border: none;
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.op{
+     background-color: rgba(255, 159, 10, 1);
+}
+
+#clear {
+     background-color: #555;
+}

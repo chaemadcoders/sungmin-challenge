@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="../css/dcmcal.css">
+</head>
+    <body>
+        <div class="cal">
+            <div id="input"></div>
+            <div class="row">
+                <button onclick="inPut(7)">7</button>
+                <button onclick="inPut(8)">8</button>
+                <button onclick="inPut(9)">9</button>
+                <button  onclick="inPut('÷')" class="op">÷</button>
+            </div>
+            <div class="row">
+                <button onclick="inPut(4)">4</button>
+                <button onclick="inPut(5)">5</button>
+                <button onclick="inPut(6)">6</button>
+                <button  onclick="inPut('×')" class="op">×</button>
+            </div>
+            <div class="row">   
+                <button onclick="inPut(1)">1</button>
+                <button onclick="inPut(2)">2</button>
+                <button onclick="inPut(3)">3</button>
+                <button onclick="inPut('-')" class="op">-</button>
+            </div>
+            <div class="row">
+                <button onclick="inPut(0)">0</button>
+                <button onclick="clickClear()" id="clear">C</button>
+                <button onclick="clickEqual()" class="op">=</button>
+                <button onclick="inPut('+')" class="op">+</button>
+            </div>
+        </div>
+    <script src="../js/dcmcal.js"></script>
+    </body>
+</html>
